@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PB_Media/static/css/main.7ed86a8d.css",
+    "main.js": "/PB_Media/static/js/main.e9c65aac.js",
+    "index.html": "/PB_Media/index.html",
+    "main.7ed86a8d.css.map": "/PB_Media/static/css/main.7ed86a8d.css.map",
+    "main.e9c65aac.js.map": "/PB_Media/static/js/main.e9c65aac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed86a8d.css",
+    "static/js/main.e9c65aac.js"
+  ]
+}
