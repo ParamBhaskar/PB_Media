@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #24a0ed;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 6px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: red;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.post-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.post-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.post-preview h2 {
+  font-size: 20px;
+  color: #24a0ed;
+  margin-bottom: 8px;
+}
+.post-preview a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dashboard button{
+  background: #24a0ed;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dashboard form:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.post-preview{
+  position: relative;
+}
+.post-preview .b1{
+  position: absolute;
+  top: 0;
+  left: 25vw;
+}
+.post-preview .b2{
+  margin-right: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.b3,.b4{
+  margin-right: 10px;
+}
+.sign {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sign label {
+  text-align: left;
+  display: block;
+}
+.sign h2 {
+  font-size: 20px;
+  color: #24a0ed;
+  margin-bottom: 30px;
+}
+.sign input, .sign textarea, .sign select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.sign button {
+  background: #24a0ed;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:450px){
+.navbar{
+  flex-direction: column;
+}
+}
